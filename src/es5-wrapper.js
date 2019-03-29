@@ -1,3 +1,4 @@
 (function(){var exports={};
 MINIFIED_JS
-window.Quill.register('modules/imageDrop',exports.ImageDrop);})();
+  if(typeof window.Quill !== 'undefined') window.Quill.register('modules/imageDrop',exports.ImageDrop);
+})();
